@@ -106,7 +106,7 @@ function AddItemForm({ onNewItem }) {
                         disabled={!newItem.length}
                         className={submitting ? 'disabled' : ''}
                     >
-                        {submitting ? 'Adding...' : 'Add Item'}
+                        {submitting ? 'Adding...' : 'Add'} {/* THIS FILE WAS changed to check if The bind mount concept happened. */}
                     </Button>
                 </InputGroup.Append>
             </InputGroup>
